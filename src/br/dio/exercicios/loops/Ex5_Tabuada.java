@@ -8,6 +8,7 @@ public class Ex5_Tabuada {
         System.out.print("Informe um numero para saber sua tabuada: ");
         int number = scanner.nextInt();
         System.out.println("Tabuada de: " + number);
+
         for(int i = 1; i <= 10; i++ ){
             System.out.println(number + " x " + i + " = " + number*i);
         }
